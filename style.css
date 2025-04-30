@@ -4,12 +4,16 @@
 }
 
 body{
-    height: 100vh;
+     height: 100vh;
     background: linear-gradient(90deg, #0f0c29,#302b63,#24243e);
-    width: 100vw;
-    padding: 1vh 1vw 1vh 1vw;
     position: relative;
     overflow: hidden;
+    box-sizing: border-box;
+    height: 98vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 #brdr{
@@ -32,8 +36,8 @@ body{
 
 
 .coin{
-    height: 400px;
-    width: 400px;
+    height: 300px;
+    width: 300px;
     text-align: center;
     border-radius: 100%;
     text-shadow: 2px 2px 2px black;
