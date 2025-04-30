@@ -54,7 +54,7 @@ body{
     display: flex;
     position: absolute;
     justify-content: center;
-    font-size:6vw;
+    font-size:160%;
     text-shadow: 2px 2px 2px black;
 }
 
@@ -69,7 +69,7 @@ body{
 
 
 #face{
-    font-size: 800%;
+    font-size: 500%;
     filter: drop-shadow(5px 5px 2px black);
     transition: 1000ms ease-in-out;
 }
@@ -110,16 +110,16 @@ button:hover{
 }
 
 
-@media (max-width:500px){
-   .coin{
-    width:50vw;
-    height:50vw;
-   } 
-   #coinstrip{
-    margin: 25vh 0px 0px 0px;
-   }
 
-   #face{
-    font-size: 250%;
-   }
+@media screen and (max-width:780px){
+ .coin{
+    height: 200px;
+    width: 200px;
+ }
+ #face{
+    font-size: 300%;
+ }
+
 }
+
+
