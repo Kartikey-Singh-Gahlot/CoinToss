@@ -13,8 +13,8 @@ A simple and fun web-based coin toss simulator built using HTML, CSS, and JavaSc
 
 # Technologies Used
 
-HTML – Structure of the game
-CSS – Styling and animations
-JavaScript – Toss logic and interactivity
+- HTML – Structure of the game
+- CSS – Styling and animations
+- JavaScript – Toss logic and interactivity
 
 
